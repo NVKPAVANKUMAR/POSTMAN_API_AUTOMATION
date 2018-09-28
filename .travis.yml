@@ -11,4 +11,4 @@ before_script:
   - node_modules/.bin/newman --version
 
 script:
-  - node_modules/.bin/newman run postman_collection.json -e env.json
+  - node_modules/.bin/newman run https://www.getpostman.com/collections/8366f0ba32eb88909d9f
