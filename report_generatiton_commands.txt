@@ -1,0 +1,1 @@
+newman run -e env-env.json --reporters cli,html --reporter-html-template templates/htmlreqres.hbs --reporter-html-export nice_report.html SampleAPI.postman_collection.json
