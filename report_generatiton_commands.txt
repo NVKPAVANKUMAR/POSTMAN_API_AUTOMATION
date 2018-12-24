@@ -1,1 +1,3 @@
 newman run -e env-env.json --reporters cli,html --reporter-html-template templates/htmlreqres.hbs --reporter-html-export nice_report.html SampleAPI.postman_collection.json
+
+C:\Users\pavan.nemalikanti\Downloads\node-v8.12.0-win-x64\newman run https://www.getpostman.com/collections/8366f0ba32eb88909d9f --disable-unicode --color off --reporters html --reporter-html-template C:\Users\pavan.nemalikanti\Downloads\node-v8.12.0-win-x64\node_modules\newman-reporter-html-enhanced\templates\htmlreqres.hbs --reporter-html-export nice_report.html
